@@ -69,19 +69,19 @@ Reproduced the three highest-risk oversharing patterns using Microsoft 365 and S
 ---
 
 ### 1️⃣ Sensitive Sample Data
-./Screenshots/01-sensitive-data.png
+./screenshots/01-sensitive-data.png
 
 ### 2️⃣ Org-wide Link Configuration
-./Screenshots/02-link-settings.png
+./screenshots/02-link-settings.png
 
 ### 3️⃣ Oversharing Confirmed
-./Screenshots/03-link-copied.png
+./screenshots/03-link-copied.png
 
 ### 4️⃣ Site Set to Public
-./Screenshots/04-public-site.png
+./screenshots/04-public-site.png
 
 ### 5️⃣ Sensitive File in Public Site
-./Screenshots/05-file-in-public-site.png
+./screenshots/05-file-in-public-site.png
 
 ---
 
