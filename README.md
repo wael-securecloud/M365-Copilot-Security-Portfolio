@@ -46,4 +46,4 @@ findings, and evidence — mirroring how a real consultant documents client enga
 
 ## 📫 Contact
 
-🔗 LinkedIn · ✉️ your-email
+🔗 [LinkedIn](https://www.linkedin.com/in/wael-securecloud/) · ✉️ engwhfm@gmail.com
