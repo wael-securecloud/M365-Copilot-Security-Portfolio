@@ -1,5 +1,10 @@
 # 🏛️ Copilot Oversharing Risk — Assessment Record (CAR-01)
 
+
+> ⚠️ **Disclaimer:** All data shown is fictitious and created in an isolated
+> Microsoft 365 lab tenant for demonstration purposes only. No real personal,
+> employee, or customer data is used.
+
 > **Module:** M1 - Data Security | **Lab:** Lab 1 - Oversharing Baseline
 > **Date:** 2026-06-18 | **Author:** Wael Mohamed
 > **Status:** Completed ✅
