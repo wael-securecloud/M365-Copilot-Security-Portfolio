@@ -1,35 +1,81 @@
-# Case Study 1: SharePoint Oversharing Risk Assessment (Pre-Copilot)
+# 🏛️ Copilot Oversharing Risk — Assessment Record (CAR-01)
  
-## Objective
-Build and document a realistic oversharing scenario in a Microsoft 365 tenant to
-demonstrate the data-exposure risks that surface when Microsoft 365 Copilot is enabled.
+> **Module:** M1 - Data Security | **Lab:** Lab 1 - Oversharing Baseline
+> **Date:** 2026-06-18 | **Author:** Wael Mohamed
+> **Status:** Completed ✅
  
-## Environment
-Microsoft 365 E5 (lab tenant) — SharePoint Online, Microsoft Entra ID, Microsoft Purview.
+---
  
-## What I did
-1. Built a representative tenant with three SharePoint sites (HR-Confidential, Finance,
-   General), 24 users, and dynamic security groups (department-based membership).
-2. Created sensitive sample data (employee salaries + national IDs) in an Excel file.
-3. Reproduced the three most common real-world oversharing patterns:
-   - Shared a confidential file with an organization-wide link ("People in org can view").
-   - Converted a site to Public, exposing it to every employee automatically.
-   - Left sensitive data unclassified (no sensitivity labels).
+## 🎯 Context
  
-## Key findings
-- A single 30-second "Share" action exposed confidential salary data to the entire org.
-- A Public site made sensitive content discoverable with no link required.
-- No classification or protection existed on highly sensitive data.
+Microsoft 365 Copilot honors existing permissions **exactly** — so any content that
+was unintentionally overshared and becomes instantly discoverable through natural language
+prompts.
  
-## Why it matters
-Microsoft 365 Copilot honors existing permissions exactly — so it instantly surfaces
-overshared content in natural-language queries. These patterns represent the exact
-risks Copilot exposes at rollout.
+The goal of this lab was to **build and document a realistic oversharing scenario**
+in an E5 tenant, reproducing the most common real-world patterns that expose sensitive
+data before a Copilot rollout.
  
-## Next steps (covered in follow-up case studies)
-- Detect these risks using SharePoint Data Access Governance reports.
-- Remediate with Sensitivity Labels, DLP, and Restricted Content Discovery.
+---
  
-## Skills demonstrated
-Microsoft 365 administration, SharePoint sharing & permissions model, oversharing
-risk identification, Copilot readiness fundamentals.
+## 🧩 Decision
+ 
+Reproduce the three highest-risk oversharing patterns using Microsoft 365 and SharePoint.
+ 
+| Pattern | Action | Risk Created |
+|---------|--------|--------------|
+| **Org-wide link** | Shared `Salaries2026.xlsx` via `People in org` link | Every employee can view confidential salaries |
+| **Public site** | Converted `General` site to `Public group` | Sensitive content exposed **without any link** |
+| **No classification** | Left sensitive data with no `Sensitivity Label` | No protection travels with the data |
+ 
+---
+ 
+## 🔍 Findings
+ 
+- 🔴 **Critical:** A single 30-second *Share* action exposed salary + national-ID data org-wide.
+- 🟠 **High:** A Public site made sensitive content discoverable with **no link required**.
+- 🟡 **Medium:** Highly sensitive data had **zero classification or encryption**.
+ 
+---
+ 
+## 💥 Why It Matters
+ 
+> Copilot does not break your permissions — it **exposes the ones you already had**.
+> These exact patterns turn a decade of "share with everyone" habits into a single
+> queryable prompt.
+ 
+---
+ 
+## 🛠️ Environment
+ 
+| Component | Detail |
+|-----------|--------|
+| Tenant | Microsoft 365 **E5** (lab) |
+| Workloads | SharePoint Online, Entra ID, Microsoft Purview |
+| Sample data | Employee salaries + national IDs (fictitious) |
+ 
+---
+ 
+## 📸 Evidence
+ 
+| # | Screenshot | Shows |
+|---|-----------|-------|
+| 1 | `./screenshots/01-sensitive-data.png` | Sensitive sample data |
+| 2 | `./screenshots/02-link-settings.png` | Org-wide link configuration |
+| 3 | `./screenshots/03-link-copied.png` | Oversharing confirmed |
+| 4 | `./screenshots/04-public-site.png` | Site set to Public |
+| 5 | `./screenshots/05-file-in-public-site.png` | Sensitive file in public site |
+ 
+---
+ 
+## 🚀 Next Steps
+ 
+- [ ] **Detect** these risks → SharePoint Data Access Governance reports *(Lab 3)*
+- [ ] **Remediate** → Sensitivity Labels + DLP + Restricted Content Discovery *(Lab 7–9)*
+ 
+---
+ 
+## 🧠 Skills Demonstrated
+ 
+`Microsoft 365` · `SharePoint Permissions` · `Oversharing Risk` · `Copilot Readiness` · `Data Security`
+ 
