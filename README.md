@@ -1,5 +1,10 @@
 # 🛡️ Microsoft 365 Copilot Security Portfolio
 
+
+> ⚠️ **Disclaimer:** All data shown is fictitious and created in an isolated
+> Microsoft 365 lab tenant for demonstration purposes only. No real personal,
+> employee, or customer data is used.
+
 > Hands-on labs and assessment records demonstrating **secure Microsoft 365 Copilot
 > adoption** — oversharing assessment, data protection, and remediation using
 > Microsoft Purview, SharePoint Advanced Management, and Microsoft Entra.
