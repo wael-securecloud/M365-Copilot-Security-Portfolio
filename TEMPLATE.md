@@ -1,5 +1,10 @@
 # 🏛️ [Lab Title] — Assessment Record (CAR-[XX])
 
+
+> ⚠️ **Disclaimer:** All data shown is fictitious and created in an isolated
+> Microsoft 365 lab tenant for demonstration purposes only. No real personal,
+> employee, or customer data is used.
+
 > **Module:** [M? - Topic] | **Lab:** [Lab ? - Name]
 > **Date:** [YYYY-MM-DD] | **Author:** Wael Mohamed
 > **Status:** [In Progress 🔄 / Completed ✅]
