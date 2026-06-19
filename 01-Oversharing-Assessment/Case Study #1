@@ -1,0 +1,35 @@
+# Case Study 1: SharePoint Oversharing Risk Assessment (Pre-Copilot)
+ 
+## Objective
+Build and document a realistic oversharing scenario in a Microsoft 365 tenant to
+demonstrate the data-exposure risks that surface when Microsoft 365 Copilot is enabled.
+ 
+## Environment
+Microsoft 365 E5 (lab tenant) — SharePoint Online, Microsoft Entra ID, Microsoft Purview.
+ 
+## What I did
+1. Built a representative tenant with three SharePoint sites (HR-Confidential, Finance,
+   General), 24 users, and dynamic security groups (department-based membership).
+2. Created sensitive sample data (employee salaries + national IDs) in an Excel file.
+3. Reproduced the three most common real-world oversharing patterns:
+   - Shared a confidential file with an organization-wide link ("People in org can view").
+   - Converted a site to Public, exposing it to every employee automatically.
+   - Left sensitive data unclassified (no sensitivity labels).
+ 
+## Key findings
+- A single 30-second "Share" action exposed confidential salary data to the entire org.
+- A Public site made sensitive content discoverable with no link required.
+- No classification or protection existed on highly sensitive data.
+ 
+## Why it matters
+Microsoft 365 Copilot honors existing permissions exactly — so it instantly surfaces
+overshared content in natural-language queries. These patterns represent the exact
+risks Copilot exposes at rollout.
+ 
+## Next steps (covered in follow-up case studies)
+- Detect these risks using SharePoint Data Access Governance reports.
+- Remediate with Sensitivity Labels, DLP, and Restricted Content Discovery.
+ 
+## Skills demonstrated
+Microsoft 365 administration, SharePoint sharing & permissions model, oversharing
+risk identification, Copilot readiness fundamentals.
