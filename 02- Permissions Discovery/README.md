@@ -70,10 +70,10 @@ access layer for `Salaries2026.xlsx`.
 ## 📸 Evidence
 
 ### 1️⃣ External Sharing Enabled on All Sites
-!External Sharing
+![External Sharing](./screenshots/01-external-sharing-all-sites.png)
 
 ### 2️⃣ HR-Confidential Site Permissions (Clean)
-./screenshots/02-site-permissions.png
+![Site Permission](./screenshots/02-site-permissions.png)
 
 ### 3️⃣ File Access — Groups Layer
 ![Groups Access](./screenshots/03-file-groups.png)
