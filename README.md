@@ -40,7 +40,7 @@ findings, and evidence — mirroring how a real consultant documents client enga
 | **Data Security** | Microsoft Purview · DLP · Sensitivity Labels · DSPM for AI |
 | **Identity** | Microsoft Entra ID · Conditional Access · PIM · JIT |
 | **Copilot** | Readiness Assessment · Oversharing Remediation · RCD |
-| a Access Governance · Advanced Management |
+| **SharePoint** | Data Access Governance · Advanced Management |
 
 ---
 
