@@ -27,7 +27,7 @@ findings, and evidence — mirroring how a real consultant documents client enga
 | # | Record | Focus | Status |
 |---|--------|-------|--------|
 | 01 | [Oversharing Risk](./01-Oversharing-Assessment) | Pre-Copilot data exposure | ✅ Completed |
-| 02 | Copilot Readiness Assessment | Detecting oversharing at scale | 🔄 Planned |
+| 02 | [Copilot Readiness Assessment](./02-Permissions-Discovery) | Detecting oversharing at scale | ✅ Completed |
 | 03 | Data Protection & Remediation | Purview DLP + Sensitivity Labels | 🔄 Planned |
 | 04 | Admin Resilience | Break-glass + monitoring | 🔄 Planned |
 
