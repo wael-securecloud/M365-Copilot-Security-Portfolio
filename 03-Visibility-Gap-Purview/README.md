@@ -263,6 +263,8 @@ Organizations must validate:
 
 ![Salaries2026.xlsx Sensitive Info Detection](./screenshots/06-salaries-sensitive-info-detection.png)
 
+Note: Some detected sensitive information types may represent false positives due to pattern-based recognition, especially in lab or synthetic datasets. Further validation is required in real environments.
+
 ---
 
 ## 🚀 Next Steps
