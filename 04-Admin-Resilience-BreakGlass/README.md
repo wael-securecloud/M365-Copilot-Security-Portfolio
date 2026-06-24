@@ -130,8 +130,7 @@ is completely invisible.
 |---|-----------|-------|
 | 1 | ./screenshots/01-breakglass-global-admin.png | Standing Global Admin (Active, Permanent) |
 | 2 | ./screenshots/02-ca-policy-mfa.png | Single MFA policy, On |
-| 3 | ./screenshots/03-mfa-exclusion-list.png | Personal account wrongly excluded |
-| 4 | ./screenshots/04-breakglass-no-signins.png | No sign-in activity / no alerting |
+| 3 | ./screenshots/03-breakglass-no-signins.png | No sign-in activity / no alerting |
 
 ---
 
