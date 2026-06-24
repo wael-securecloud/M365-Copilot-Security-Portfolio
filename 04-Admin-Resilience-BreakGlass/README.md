@@ -128,9 +128,9 @@ is completely invisible.
 ## 📸 Evidence
 | # | Screenshot | Shows |
 |---|-----------|-------|
-| 1 | ./screenshots/01-breakglass-global-admin.png | Standing Global Admin (Active, Permanent) |
-| 2 | ./screenshots/02-ca-policy-mfa.png | Single MFA policy, On |
-| 3 | ./screenshots/03-breakglass-no-signins.png | No sign-in activity / no alerting |
+| 1 | ![Standing Global Admin](./screenshots/01-breakglass-global-admin.jpeg) | Standing Global Admin (Active, Permanent) |
+| 2 | ![Single MFA policy](./screenshots/02-ca-policy-mfa.jpeg) | Single MFA policy, On |
+| 3 | ![No sign-in activity](./screenshots/03-breakglass-no-signins.jpeg) | No sign-in activity / no alerting |
 
 ---
 
