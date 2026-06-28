@@ -339,9 +339,9 @@ A break-glass account that is over-controlled may fail during the crisis it was 
 
 | # | Screenshot | Shows |
 |---|---|---|
-| 1 | `./screenshots/01-breakglass-global-admin.jpeg` | Standing Global Admin assignment |
-| 2 | `./screenshots/02-ca-policy-mfa.jpeg` | Single MFA policy enabled |
-| 3 | `./screenshots/03-breakglass-no-signins.jpeg` | No sign-in activity / no alerting evidence |
+| 1 | ![Standing Global Admin](./screenshots/01-breakglass-global-admin.jpeg) | Standing Global Admin (Active, Permanent) |
+| 2 | ![Single MFA policy](./screenshots/02-ca-policy-mfa.jpeg) | Single MFA policy, On |
+| 3 | ![No sign-in activity](./screenshots/03-breakglass-no-signins.jpeg) | No sign-in activity / no alerting |
 
 ---
 
