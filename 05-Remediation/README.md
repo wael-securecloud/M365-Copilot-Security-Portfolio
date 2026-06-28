@@ -360,10 +360,10 @@ This is why remediation must be followed by validation.
 
 | # | Screenshot | Shows |
 |---|---|---|
-| 1 | `./screenshots/01-link-removed.png` | Org-wide sharing link removed |
-| 2 | `./screenshots/02-site-private.png` | Site changed to Private group |
-| 3 | `./screenshots/03-label-applied.png` | Confidential label on salary file |
-| 4 | `./screenshots/04-dlp-billing.png` | DLP billing dependency observed in lab |
+| 1 | ![Org-wide sharing link removed](./screenshots/01-link-removed.png) | Org-wide sharing link removed |
+| 2 | ![Site changed to Private group](./screenshots/02-site-private.png) | Site changed to Private group |
+| 3 | ![Confidential label on salary file](./screenshots/03-label-applied.png) | Confidential label on salary file |
+| 4 | ![CDLP billing dependency](./screenshots/04-dlp-billing.png) | DLP billing dependency |
 
 ---
 
